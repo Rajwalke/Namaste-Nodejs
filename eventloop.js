@@ -3,7 +3,7 @@ const a=100;
 setImmediate(()=>console.log("setImmediate"));
 
 fs.readFile("./file.txt","utf8",()=>{
-    console.log("file ios read");
+    console.log("file is read");
 })
 
 setTimeout(()=>{
